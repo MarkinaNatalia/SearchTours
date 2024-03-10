@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AD5A4796-CB76-449F-A17F-043B49CC4205"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C308C696-1727-4CBC-B807-12A271021DFD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/CustomViews/InputField/InputField.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "setupSettings()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E86A5CF-9419-4696-A679-82D2B3036080"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/SearchMainModule/SearchMainPresenter/SearchMainPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "openSearch(type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59B27540-5110-4EB2-97B2-1511435A59EE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/NetworkService/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "getDepartCities()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "59B27540-5110-4EB2-97B2-1511435A59EE - d721d781f53acc0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SearchTours.NetworkService.getDepartCities() async throws -&gt; Swift.Array&lt;SearchTours.DepartCity&gt;"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "59B27540-5110-4EB2-97B2-1511435A59EE - 305b5dbddf13da44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) await resume partial function for SearchTours.NetworkService.getDepartCities() async throws -&gt; Swift.Array&lt;SearchTours.DepartCity&gt;"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "59B27540-5110-4EB2-97B2-1511435A59EE - 15ef4675894cbdf9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) suspend resume partial function for SearchTours.NetworkService.getDepartCities() async throws -&gt; Swift.Array&lt;SearchTours.DepartCity&gt;"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "59B27540-5110-4EB2-97B2-1511435A59EE - 5c0dd5b649bf5cfa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SearchTours.NetworkService.getDepartCities() async throws -&gt; Swift.Array&lt;SearchTours.DepartCity&gt;"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "141C6D64-4D67-4644-9031-6D67AD38705C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/NetworkService/BaseNetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "handleResponse(response:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6D35259-5137-4CC6-A787-F2A60E7D96D5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/NetworkService/BaseNetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "handleResponse(response:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB4F4971-1B8D-4A30-9AF4-A88389E63789"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/SearchModule/SearchPresenter/SearchPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C001131F-0EC9-4084-B19E-B25BAB3A3779"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/SearchMainModule/SearchMainPresenter/SearchMainPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "searchTourButtonAction(departureDate:nightsCount:adultsCount:kidsCount:kidsAges:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C001131F-0EC9-4084-B19E-B25BAB3A3779 - a634a38d55f4ea78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SearchTours.SearchMainPresenter.searchTourButtonAction() -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/SearchMainModule/SearchMainPresenter/SearchMainPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "C001131F-0EC9-4084-B19E-B25BAB3A3779 - 7d2a6668db3e32af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable () async -&gt; () in SearchTours.SearchMainPresenter.searchTourButtonAction() -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/SearchMainModule/SearchMainPresenter/SearchMainPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "C001131F-0EC9-4084-B19E-B25BAB3A3779 - 861961c04a4ba777"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SearchTours.SearchMainPresenter.searchTourButtonAction() -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/SearchMainModule/SearchMainPresenter/SearchMainPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "254A7636-B0AC-4BF8-B9A2-AC4564E03F28"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/SearchMainModule/SearchMainPresenter/SearchMainPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "searchTourButtonAction(departureDate:nightsCount:adultsCount:kidsCount:kidsAges:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "254A7636-B0AC-4BF8-B9A2-AC4564E03F28 - 4e2bc8581420a2f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SearchTours.SearchMainPresenter.searchTourButtonAction() -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/SearchMainModule/SearchMainPresenter/SearchMainPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "254A7636-B0AC-4BF8-B9A2-AC4564E03F28 - b2c51c243fcc20f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in SearchTours.SearchMainPresenter.searchTourButtonAction() -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/SearchMainModule/SearchMainPresenter/SearchMainPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71066CC8-E6DE-441E-9EE6-C142EFD36CBF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/NetworkService/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "postSearch(departCityId:countryId:startFrom:startTo:durationFrom:durationTo:adults:kids:kidsAges:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "71066CC8-E6DE-441E-9EE6-C142EFD36CBF - e74d5864d6a92935"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SearchTours.NetworkService.postSearch(departCityId: Swift.Int, startFrom: Swift.String, startTo: Swift.String, durationFrom: Swift.Int, durationTo: Swift.Int, adults: Swift.Int) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "1240">
+               </Location>
+               <Location
+                  uuid = "71066CC8-E6DE-441E-9EE6-C142EFD36CBF - 3ca4da62e4db9135"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for SearchTours.NetworkService.postSearch(departCityId: Swift.Int, startFrom: Swift.String, startTo: Swift.String, durationFrom: Swift.Int, durationTo: Swift.Int, adults: Swift.Int) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "71066CC8-E6DE-441E-9EE6-C142EFD36CBF - 3ca4da62e4db9173"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for SearchTours.NetworkService.postSearch(departCityId: Swift.Int, startFrom: Swift.String, startTo: Swift.String, durationFrom: Swift.Int, durationTo: Swift.Int, adults: Swift.Int) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "71066CC8-E6DE-441E-9EE6-C142EFD36CBF - af58099e9c8e057d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SearchTours.NetworkService.postSearch(departCityId: Swift.Int, startFrom: Swift.String, startTo: Swift.String, durationFrom: Swift.Int, durationTo: Swift.Int, adults: Swift.Int) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "71066CC8-E6DE-441E-9EE6-C142EFD36CBF - af58099e9c8e053b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SearchTours.NetworkService.postSearch(departCityId: Swift.Int, startFrom: Swift.String, startTo: Swift.String, durationFrom: Swift.Int, durationTo: Swift.Int, adults: Swift.Int) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "71066CC8-E6DE-441E-9EE6-C142EFD36CBF - b5da2b37982937e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SearchTours.NetworkService.postSearch(departCityId: Swift.Int, startFrom: Swift.String, startTo: Swift.String, durationFrom: Swift.Int, durationTo: Swift.Int, adults: Swift.Int) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "71066CC8-E6DE-441E-9EE6-C142EFD36CBF - b5da2b379829338"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SearchTours.NetworkService.postSearch(departCityId: Swift.Int, startFrom: Swift.String, startTo: Swift.String, durationFrom: Swift.Int, durationTo: Swift.Int, adults: Swift.Int) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "71066CC8-E6DE-441E-9EE6-C142EFD36CBF - c7b081212be8dab4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SearchTours.NetworkService.postSearch(departCityId: Swift.Int, countryId: Swift.Int, startFrom: Swift.String, startTo: Swift.String, durationFrom: Swift.Int, durationTo: Swift.Int, adults: Swift.Int, kids: Swift.Int, kidsAges: Swift.Array&lt;Swift.Int&gt;) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "2728">
+               </Location>
+               <Location
+                  uuid = "71066CC8-E6DE-441E-9EE6-C142EFD36CBF - edc5c0d2c02cd89d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for SearchTours.NetworkService.postSearch(departCityId: Swift.Int, countryId: Swift.Int, startFrom: Swift.String, startTo: Swift.String, durationFrom: Swift.Int, durationTo: Swift.Int, adults: Swift.Int, kids: Swift.Int, kidsAges: Swift.Array&lt;Swift.Int&gt;) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "71066CC8-E6DE-441E-9EE6-C142EFD36CBF - 94e55e3c000186b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SearchTours.NetworkService.postSearch(departCityId: Swift.Int, countryId: Swift.Int, startFrom: Swift.String, startTo: Swift.String, durationFrom: Swift.Int, durationTo: Swift.Int, adults: Swift.Int, kids: Swift.Int, kidsAges: Swift.Array&lt;Swift.Int&gt;) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "71066CC8-E6DE-441E-9EE6-C142EFD36CBF - ba837fb9934e20b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SearchTours.NetworkService.postSearch(departCityId: Swift.Int, countryId: Swift.Int, startFrom: Swift.String, startTo: Swift.String, durationFrom: Swift.Int, durationTo: Swift.Int, adults: Swift.Int, kids: Swift.Int, kidsAges: Swift.Array&lt;Swift.Int&gt;) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "71066CC8-E6DE-441E-9EE6-C142EFD36CBF - ba837fb9934e20b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SearchTours.NetworkService.postSearch(departCityId: Swift.Int, countryId: Swift.Int, startFrom: Swift.String, startTo: Swift.String, durationFrom: Swift.Int, durationTo: Swift.Int, adults: Swift.Int, kids: Swift.Int, kidsAges: Swift.Array&lt;Swift.Int&gt;) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A90987CC-8E7E-4526-8E84-FABD329B865A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/NetworkService/BaseNetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "request(_:router:parameters:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "92493C82-FE88-49A6-814D-1541BC0B5BFC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/NetworkService/BaseNetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "request(_:router:parameters:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "92493C82-FE88-49A6-814D-1541BC0B5BFC - 70829cf3089abb2d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SearchTours.BaseNetworkService.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(_: &#x3c4;_1_0.Type, router: &#x3c4;_0_0, body: Swift.Optional&lt;Foundation.Data&gt;) async throws -&gt; &#x3c4;_1_0"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/BaseNetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "92493C82-FE88-49A6-814D-1541BC0B5BFC - ff1d2f055e2e1064"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for SearchTours.BaseNetworkService.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(_: &#x3c4;_1_0.Type, router: &#x3c4;_0_0, body: Swift.Optional&lt;Foundation.Data&gt;) async throws -&gt; &#x3c4;_1_0"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/BaseNetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "92493C82-FE88-49A6-814D-1541BC0B5BFC - 2857f598dee1472f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SearchTours.BaseNetworkService.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(_: &#x3c4;_1_0.Type, router: &#x3c4;_0_0, body: Swift.Optional&lt;Foundation.Data&gt;) async throws -&gt; &#x3c4;_1_0"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/BaseNetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "92493C82-FE88-49A6-814D-1541BC0B5BFC - 8c3eb9d4c51cc120"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SearchTours.BaseNetworkService.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(_: &#x3c4;_1_0.Type, router: &#x3c4;_0_0, body: Swift.Optional&lt;Foundation.Data&gt;) async throws -&gt; &#x3c4;_1_0"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/BaseNetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0BAC26D-FA88-411A-A9CE-27C8AD88AF2C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/NetworkService/BaseNetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "handleResponse(response:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "964D92D2-3CC3-4C92-B737-6A2ED276407A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/NetworkService/BaseNetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "request(_:router:parameters:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "964D92D2-3CC3-4C92-B737-6A2ED276407A - 2857f598dee14004"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SearchTours.BaseNetworkService.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(_: &#x3c4;_1_0.Type, router: &#x3c4;_0_0, body: Swift.Optional&lt;Foundation.Data&gt;) async throws -&gt; &#x3c4;_1_0"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/BaseNetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "964D92D2-3CC3-4C92-B737-6A2ED276407A - d47e2771ed24e4e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SearchTours.BaseNetworkService.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(_: &#x3c4;_1_0.Type, router: &#x3c4;_0_0, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;) async throws -&gt; &#x3c4;_1_0"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/BaseNetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  uuid = "964D92D2-3CC3-4C92-B737-6A2ED276407A - d47e2771ed24e4e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SearchTours.BaseNetworkService.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(_: &#x3c4;_1_0.Type, router: &#x3c4;_0_0, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;) async throws -&gt; &#x3c4;_1_0"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/BaseNetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "608">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51069270-7E0D-4F4A-8DDE-34C5D9C1905D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/NetworkService/BaseNetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "request(_:router:parameters:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "51069270-7E0D-4F4A-8DDE-34C5D9C1905D - 2857f598dee14065"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SearchTours.BaseNetworkService.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(_: &#x3c4;_1_0.Type, router: &#x3c4;_0_0, body: Swift.Optional&lt;Foundation.Data&gt;) async throws -&gt; &#x3c4;_1_0"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/BaseNetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "436">
+               </Location>
+               <Location
+                  uuid = "51069270-7E0D-4F4A-8DDE-34C5D9C1905D - d47e2771ed24e4c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SearchTours.BaseNetworkService.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(_: &#x3c4;_1_0.Type, router: &#x3c4;_0_0, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;) async throws -&gt; &#x3c4;_1_0"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/BaseNetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "384">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5AC4E202-DB99-4016-B05E-0ACA17EB729F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/NetworkService/BaseNetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "request(_:router:parameters:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5AC4E202-DB99-4016-B05E-0ACA17EB729F - d47e2771ed24e34a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SearchTours.BaseNetworkService.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(_: &#x3c4;_1_0.Type, router: &#x3c4;_0_0, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;) async throws -&gt; &#x3c4;_1_0"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/BaseNetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "5AC4E202-DB99-4016-B05E-0ACA17EB729F - d47e2771ed24e34a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SearchTours.BaseNetworkService.request&lt;&#x3c4;_0_0 where &#x3c4;_1_0: Swift.Decodable&gt;(_: &#x3c4;_1_0.Type, router: &#x3c4;_0_0, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;) async throws -&gt; &#x3c4;_1_0"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/BaseNetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD27CA5C-CC41-48B8-BFDA-D5319E202F6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/NetworkService/BaseNetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "request(_:router:parameters:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D84F5563-B1B9-4BEC-BDBB-17266CEAABCF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/ToursModule/ToursView/ToursViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "loadedSearchResults(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26F31BCB-3482-4477-A6BC-2F7E98986D86"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/ToursModule/ToursInteractor/ToursInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "getSearchResults(limit:offset:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "26F31BCB-3482-4477-A6BC-2F7E98986D86 - 489e315819f3e43f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SearchTours.ToursInteractor.getSearchResults() async throws -&gt; SearchTours.SearchResultModel"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/ToursModule/ToursInteractor/ToursInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "26F31BCB-3482-4477-A6BC-2F7E98986D86 - da58dbc4903e71a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for SearchTours.ToursInteractor.getSearchResults() async throws -&gt; SearchTours.SearchResultModel"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/ToursModule/ToursInteractor/ToursInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "26F31BCB-3482-4477-A6BC-2F7E98986D86 - 9ff777f31d40601d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SearchTours.ToursInteractor.getSearchResults() async throws -&gt; SearchTours.SearchResultModel"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/ToursModule/ToursInteractor/ToursInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "26F31BCB-3482-4477-A6BC-2F7E98986D86 - 7544d4c79f1f9e0c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SearchTours.ToursInteractor.getSearchResults() async throws -&gt; SearchTours.SearchResultModel"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/ToursModule/ToursInteractor/ToursInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AB75843-A133-415F-93A7-7331F5D9B8FF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/SearchMainModule/SearchMainView/CustomViews/InputField/InputField.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "setupSettings()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1F6C353-700D-4561-B46F-6D34278C9AD5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/SearchMainModule/SearchMainView/SearchMainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "updateCountryDepartureText(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "733C7F74-29DE-4C1C-B8CB-2EFF29B39D5A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/SearchMainModule/SearchMainPresenter/SearchMainPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "selectedDepartCity(id:name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63998C4F-AB0A-41A6-A54F-49241E3D5954"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/NetworkService/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "postSearch(departCityId:countryId:startFrom:startTo:durationFrom:durationTo:adults:kids:kidsAges:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D830BE32-D389-4D3D-B343-7F376430B5BA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/SearchMainModule/SearchMainInteractor/SearchMainInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "postSearch(departureDate:nightsCount:adultsCount:kidsCount:kidsAges:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D830BE32-D389-4D3D-B343-7F376430B5BA - c2f24c514f8068d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SearchTours.SearchMainInteractor.postSearch() async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/SearchMainModule/SearchMainInteractor/SearchMainInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "D830BE32-D389-4D3D-B343-7F376430B5BA - 4c1ab3737df453ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for SearchTours.SearchMainInteractor.postSearch() async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/SearchMainModule/SearchMainInteractor/SearchMainInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "D830BE32-D389-4D3D-B343-7F376430B5BA - 5db763d3cc9eaad0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SearchTours.SearchMainInteractor.postSearch() async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/SearchMainModule/SearchMainInteractor/SearchMainInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "D830BE32-D389-4D3D-B343-7F376430B5BA - 151af3928d2c4dd1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SearchTours.SearchMainInteractor.postSearch() async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/SearchMainModule/SearchMainInteractor/SearchMainInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "D830BE32-D389-4D3D-B343-7F376430B5BA - 8ff9347a6deb806f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SearchTours.SearchMainInteractor.postSearch(startDepartureDate: Swift.String, endDepartureDate: Swift.String, nightsCountStart: Swift.Int, nightsCountEnd: Swift.Int, adultsCount: Swift.Int, kidsCount: Swift.Int, kidsAges: Swift.Array&lt;Swift.Int&gt;) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/SearchMainModule/SearchMainInteractor/SearchMainInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "476">
+               </Location>
+               <Location
+                  uuid = "D830BE32-D389-4D3D-B343-7F376430B5BA - 29327e786d705c02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for SearchTours.SearchMainInteractor.postSearch(startDepartureDate: Swift.String, endDepartureDate: Swift.String, nightsCountStart: Swift.Int, nightsCountEnd: Swift.Int, adultsCount: Swift.Int, kidsCount: Swift.Int, kidsAges: Swift.Array&lt;Swift.Int&gt;) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/SearchMainModule/SearchMainInteractor/SearchMainInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "D830BE32-D389-4D3D-B343-7F376430B5BA - 6b8682b197c2c46d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SearchTours.SearchMainInteractor.postSearch(startDepartureDate: Swift.String, endDepartureDate: Swift.String, nightsCountStart: Swift.Int, nightsCountEnd: Swift.Int, adultsCount: Swift.Int, kidsCount: Swift.Int, kidsAges: Swift.Array&lt;Swift.Int&gt;) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/SearchMainModule/SearchMainInteractor/SearchMainInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "D830BE32-D389-4D3D-B343-7F376430B5BA - c55cb5ea832d666a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SearchTours.SearchMainInteractor.postSearch(startDepartureDate: Swift.String, endDepartureDate: Swift.String, nightsCountStart: Swift.Int, nightsCountEnd: Swift.Int, adultsCount: Swift.Int, kidsCount: Swift.Int, kidsAges: Swift.Array&lt;Swift.Int&gt;) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/SearchMainModule/SearchMainInteractor/SearchMainInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "D830BE32-D389-4D3D-B343-7F376430B5BA - 8ff9347a6deb8f29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SearchTours.SearchMainInteractor.postSearch(startDepartureDate: Swift.String, endDepartureDate: Swift.String, nightsCountStart: Swift.Int, nightsCountEnd: Swift.Int, adultsCount: Swift.Int, kidsCount: Swift.Int, kidsAges: Swift.Array&lt;Swift.Int&gt;) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/SearchMainModule/SearchMainInteractor/SearchMainInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "476">
+               </Location>
+               <Location
+                  uuid = "D830BE32-D389-4D3D-B343-7F376430B5BA - 29327e786d705344"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for SearchTours.SearchMainInteractor.postSearch(startDepartureDate: Swift.String, endDepartureDate: Swift.String, nightsCountStart: Swift.Int, nightsCountEnd: Swift.Int, adultsCount: Swift.Int, kidsCount: Swift.Int, kidsAges: Swift.Array&lt;Swift.Int&gt;) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/SearchMainModule/SearchMainInteractor/SearchMainInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "D830BE32-D389-4D3D-B343-7F376430B5BA - 6b8682b197c2cb2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SearchTours.SearchMainInteractor.postSearch(startDepartureDate: Swift.String, endDepartureDate: Swift.String, nightsCountStart: Swift.Int, nightsCountEnd: Swift.Int, adultsCount: Swift.Int, kidsCount: Swift.Int, kidsAges: Swift.Array&lt;Swift.Int&gt;) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/SearchMainModule/SearchMainInteractor/SearchMainInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "D830BE32-D389-4D3D-B343-7F376430B5BA - c55cb5ea832d692c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SearchTours.SearchMainInteractor.postSearch(startDepartureDate: Swift.String, endDepartureDate: Swift.String, nightsCountStart: Swift.Int, nightsCountEnd: Swift.Int, adultsCount: Swift.Int, kidsCount: Swift.Int, kidsAges: Swift.Array&lt;Swift.Int&gt;) async throws -&gt; ()"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/SearchMainModule/SearchMainInteractor/SearchMainInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B04B5EF1-5853-4D1C-BDA8-597CA5F01AD1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/SearchMainModule/SearchMainInteractor/SearchMainInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "postSearch(departureDate:nightsCount:adultsCount:kidsCount:kidsAges:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C59C42F-2F10-4DE7-8DED-4ED91BE39065"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/SearchMainModule/SearchMainInteractor/SearchMainInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "SearchMainInteractor"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D135FCEC-CAF2-47F0-9024-1242CD7239CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/Sources/UIImage+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "loadImage(imageUrl:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39187C0E-6DE1-4EEC-A360-7BB2ED867FDB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/ToursModule/ToursView/CustomViews/ToursTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "updateRating()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E403F15-9E17-43DA-9FB6-38302D5C167A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/ToursModule/ToursView/CustomViews/ToursTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
+            landmarkName = "updateRating()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48CDBF62-23DA-4205-B16C-01483DD2AB2A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/Sources/UIImage+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "loadImage(imageUrl:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1683A9C3-424E-4605-B1C7-298ADE598BED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/Sources/UIImage+Extension.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "loadImage(imageUrl:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4ABE413A-4EE7-491E-8BED-33C49071DCD6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/SearchMainModule/SearchMainView/CustomViews/AddingPersonView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "changedAdultsCount()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "683C282B-0C07-4849-9FCC-F803E245AD18"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/SearchMainModule/SearchMainView/SearchMainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "createNightCountSelectingView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B03D7BA0-FA88-47EB-98EA-E241432B0BC7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/SearchMainModule/SearchMainView/CustomViews/AddingPersonView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "changedAdultsCount()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F009021-41CD-42DA-BE1C-20964026451D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/SearchMainModule/SearchMainView/CustomViews/NightsCountSelectingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "createTitleLabel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C86C2F9C-7508-4EDB-9658-2979457ED919"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/SearchMainModule/SearchMainView/CustomViews/AddingPersonView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "addKidInStack(age:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E8F27021-8021-42F0-BB41-47E3ED1FC6E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/NetworkService/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "getSearchResults(limit:offset:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E8F27021-8021-42F0-BB41-47E3ED1FC6E3 - e67253527f5abecd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SearchTours.NetworkService.getSearchResults(limit: Swift.Int, offset: Swift.Int) async throws -&gt; SearchTours.SearchResultModel"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "E8F27021-8021-42F0-BB41-47E3ED1FC6E3 - 31918e3ed0118145"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for SearchTours.NetworkService.getSearchResults(limit: Swift.Int, offset: Swift.Int) async throws -&gt; SearchTours.SearchResultModel"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "E8F27021-8021-42F0-BB41-47E3ED1FC6E3 - 20fa58585b30fb4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SearchTours.NetworkService.getSearchResults(limit: Swift.Int, offset: Swift.Int) async throws -&gt; SearchTours.SearchResultModel"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "E8F27021-8021-42F0-BB41-47E3ED1FC6E3 - 4fbe5adb551dd900"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SearchTours.NetworkService.getSearchResults(limit: Swift.Int, offset: Swift.Int) async throws -&gt; SearchTours.SearchResultModel"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/Desktop/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "E8F27021-8021-42F0-BB41-47E3ED1FC6E3 - c7d2599b7964c45f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for SearchTours.NetworkService.getSearchResults(limit: Swift.Int, offset: Swift.Int) async throws -&gt; SearchTours.SearchResultModel"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "E8F27021-8021-42F0-BB41-47E3ED1FC6E3 - 103184f7d62ffbd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for SearchTours.NetworkService.getSearchResults(limit: Swift.Int, offset: Swift.Int) async throws -&gt; SearchTours.SearchResultModel"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "E8F27021-8021-42F0-BB41-47E3ED1FC6E3 - 15a52915d0e81dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for SearchTours.NetworkService.getSearchResults(limit: Swift.Int, offset: Swift.Int) async throws -&gt; SearchTours.SearchResultModel"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "E8F27021-8021-42F0-BB41-47E3ED1FC6E3 - 6e1e50125323a392"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for SearchTours.NetworkService.getSearchResults(limit: Swift.Int, offset: Swift.Int) async throws -&gt; SearchTours.SearchResultModel"
+                  moduleName = "SearchTours"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/natalia/SearchTours/SearchTours/NetworkService/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D1EC106E-7419-4D90-A12E-652C10A413EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/ToursModule/ToursView/CustomViews/ToursTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "updateData(tour:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0DA83CD2-2969-4457-819B-A8E4DE572181"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/NetworkService/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "postSearch(departCityId:countryId:startFrom:startTo:durationFrom:durationTo:adults:kids:kidsAges:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E9DAF0B-D925-4F22-B81F-E8EF462ADE7D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchTours/NetworkService/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "postSearch(departCityId:countryId:startFrom:startTo:durationFrom:durationTo:adults:kids:kidsAges:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
