@@ -1,7 +1,7 @@
 # SearchTours
 
 После запуска приложения открывается начальный экран, на котором необходимо заполнить данные
-<img src="https://github.com/MarkinaNatalia/SearchTours/assets/108276331/c93096b0-193f-4746-b324-2121973659d6">
+<img src="https://github.com/MarkinaNatalia/SearchTours/assets/108276331/c93096b0-193f-4746-b324-2121973659d6" width="300">
 ![IMG_4559](https://github.com/MarkinaNatalia/SearchTours/assets/108276331/8671a21c-41b3-4d02-b27d-db354cf33c94)
 
 Нажимая на текстовые поля "Откуда" и "Куда" переходим на экраны выбора города вылета и страны, куда хотим отправиться соответсвенно
