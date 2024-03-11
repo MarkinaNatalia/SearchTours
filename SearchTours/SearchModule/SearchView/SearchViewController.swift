@@ -151,5 +151,14 @@ extension SearchViewController: UISearchBarDelegate {
         searchBar.showsCancelButton = false
         searchBar.text = ""
         searchBar.resignFirstResponder()
+        
+        switch typeModule {
+        case .departureSearch:
+            searchResults = departCities.map { $0.name }
+        case .arrivalSearch:
+            searchResults = countries.map { $0.name }
+        }
+        
+        tableView.reloadData()
     }
 }
