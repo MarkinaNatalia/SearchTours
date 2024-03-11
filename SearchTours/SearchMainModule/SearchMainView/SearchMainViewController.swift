@@ -223,6 +223,7 @@ extension SearchMainViewController: NightsCountSelectingViewDelegate {
 
 extension SearchMainViewController: InputFieldDelegate {
     func openSearch(type: SearchModuleType) {
+        view.endEditing(true)
         output?.openSearch(type: type)
     }
 }
