@@ -27,6 +27,8 @@ extension String {
         case ageKidTitle
         case addButtonTitle
         case doneButtonTitle
+        case emptyDataAlertText
+        case emptyDataAlertOkButton
         
         var text: String {
             switch self {
@@ -54,6 +56,8 @@ extension String {
             case .ageKidTitle:                                       return "Возраст ребенка: "
             case .addButtonTitle:                                    return "Добавить"
             case .doneButtonTitle:                                   return "Готово"
+            case .emptyDataAlertText:                                return "Необходимо заполнить все поля!"
+            case .emptyDataAlertOkButton:                            return "ОК"
             }
         }
     }

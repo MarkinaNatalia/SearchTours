@@ -120,6 +120,16 @@ final class SearchMainViewController: UIViewController {
         nightCountTextField.updateText(.searchMain(.nightsCountText(count: nightsCount)))
     }
     
+    private func showEmptyDataAlert() {
+        let alert = UIAlertController(title: nil,
+                                      message: .searchMain(.emptyDataAlertText),
+                                      preferredStyle: .alert)
+        let action = UIAlertAction(title: .searchMain(.emptyDataAlertOkButton),
+                                   style: .cancel)
+        alert.addAction(action)
+        present(alert, animated: true)
+    }
+    
     // MARK: Creating UI components
     
     private func createCalendarView() -> CalendarView {
@@ -148,7 +158,13 @@ final class SearchMainViewController: UIViewController {
     // MARK: Buttons action
     
     @objc private func searchTourButtonAction() {
-        guard let departureDate = departureDate else { return }
+        guard let departureDate = departureDate,
+              !countryDepartureTextField.isEmpty(),
+              !countryArrivalTextField.isEmpty()
+        else {
+            showEmptyDataAlert()
+            return
+        }
         
         output?.searchTourButtonAction(departureDate: departureDate,
                                        nightsCount: nightsCount,

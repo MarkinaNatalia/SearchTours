@@ -47,8 +47,9 @@ final class InputField: UIView {
         textField.text = text
     }
     
-    func appendText(_ text: String) {
-        textField.text?.append(text)
+    func isEmpty() -> Bool {
+        guard let text = textField.text else { return true }
+        return text.isEmpty
     }
     
     // MARK: Setup settings
