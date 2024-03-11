@@ -294,8 +294,10 @@ final class AddingPersonView: UIView {
     }
     
     @objc private func deleteAdultButtonAction() {
-        adultsCount -= 1
-        deleteAdultFromStack()
+        if adultsCount > 1 {
+            adultsCount -= 1
+            deleteAdultFromStack()
+        }
     }
     
     @objc private func deleteKidButtonAction(_ sender: UIButton) {
