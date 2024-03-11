@@ -104,12 +104,14 @@ final class InputField: UIView {
         textField.delegate = self
         textField.inputView = customInputView
         
-        let attributes = [
-            NSAttributedString.Key.foregroundColor: UIColor.customColor(.grayColor),
-            NSAttributedString.Key.font: UIFont.customFont(.medium, size: 16)
-        ]
-        textField.attributedPlaceholder = NSAttributedString(string: type.placeholderText,
-                                                             attributes: attributes)
+        if type == .countryArrival || type == .countryDeparture {
+            let attributes = [
+                NSAttributedString.Key.foregroundColor: UIColor.customColor(.grayColor),
+                NSAttributedString.Key.font: UIFont.customFont(.medium, size: 16)
+            ]
+            textField.attributedPlaceholder = NSAttributedString(string: type.placeholderText,
+                                                                 attributes: attributes)
+        }
         
         return textField
     }

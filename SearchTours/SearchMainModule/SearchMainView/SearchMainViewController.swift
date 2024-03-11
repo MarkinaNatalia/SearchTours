@@ -130,7 +130,10 @@ final class SearchMainViewController: UIViewController {
     }
     
     private func createAddingPersonView() -> AddingPersonView {
-        let view = AddingPersonView(frame: CGRect(x: 0, y: 0, width: view.bounds.size.width, height: 400))
+        let view = AddingPersonView(startAdultsCount: adultsCount,
+                                    startKidsCount: kidsCount,
+                                    startAgeKids: kidsAges,
+                                    frame: CGRect(x: 0, y: 0, width: view.bounds.size.width, height: 450))
         view.delegateView = self
         return view
     }

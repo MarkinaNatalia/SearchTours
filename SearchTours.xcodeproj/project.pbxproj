@@ -81,7 +81,6 @@
 		E1F3B42A2B9CC03D0050A71A /* Font+CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F3B4292B9CC03D0050A71A /* Font+CustomFont.swift */; };
 		E1F3B42C2B9D0CD00050A71A /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F3B42B2B9D0CD00050A71A /* Date+Extension.swift */; };
 		E1F3B42E2B9D14B20050A71A /* DoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F3B42D2B9D14B20050A71A /* DoneButton.swift */; };
-		E1F3B4302B9D229A0050A71A /* ButtonWithMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F3B42F2B9D229A0050A71A /* ButtonWithMenuView.swift */; };
 		E1F3B4322B9DC9550050A71A /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1F3B4312B9DC9550050A71A /* Inter-Medium.ttf */; };
 		E1F3B4342B9DCA150050A71A /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1F3B4332B9DCA150050A71A /* Inter-ExtraBold.ttf */; };
 		E1F3B4362B9DCA4A0050A71A /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1F3B4352B9DCA4A0050A71A /* Inter-SemiBold.ttf */; };
@@ -167,7 +166,6 @@
 		E1F3B4292B9CC03D0050A71A /* Font+CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+CustomFont.swift"; sourceTree = "<group>"; };
 		E1F3B42B2B9D0CD00050A71A /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		E1F3B42D2B9D14B20050A71A /* DoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneButton.swift; sourceTree = "<group>"; };
-		E1F3B42F2B9D229A0050A71A /* ButtonWithMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithMenuView.swift; sourceTree = "<group>"; };
 		E1F3B4312B9DC9550050A71A /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
 		E1F3B4332B9DCA150050A71A /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
 		E1F3B4352B9DCA4A0050A71A /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -378,7 +376,6 @@
 				E1F3B4032B9B4E560050A71A /* NightsCountSelectingView.swift */,
 				E1F3B4102B9C8AB20050A71A /* CalendarView.swift */,
 				E1F3B42D2B9D14B20050A71A /* DoneButton.swift */,
-				E1F3B42F2B9D229A0050A71A /* ButtonWithMenuView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -611,7 +608,6 @@
 				E1F3B3B02B96FFA20050A71A /* SearchInteractor.swift in Sources */,
 				E1F3B3662B963ED90050A71A /* SearchMainRouterInput.swift in Sources */,
 				E1F3B41C2B9C91F30050A71A /* String+Search.swift in Sources */,
-				E1F3B4302B9D229A0050A71A /* ButtonWithMenuView.swift in Sources */,
 				E1F3B43C2B9DF6BB0050A71A /* CustomUserDefaults.swift in Sources */,
 				E1F3B3712B9652610050A71A /* TabBarController.swift in Sources */,
 				E1F3B3D12B9755910050A71A /* TourModel.swift in Sources */,

@@ -16,13 +16,12 @@ protocol AddingPersonViewDelegate {
 final class AddingPersonView: UIView {
     var delegateView: AddingPersonViewDelegate?
     
-    private var currentAgeKid = 0
-    private var ageKids: [Int] = []
-    
-    private var adultsCount = 1 {
+    private var maxKidAge = 14
+    private var ageKids: [Int]
+    private var adultsCount: Int {
         didSet { changedAdultsCount() }
     }
-    private var kidsCount = 0 {
+    private var kidsCount: Int {
         didSet { changedKidsCount() }
     }
     
@@ -35,14 +34,18 @@ final class AddingPersonView: UIView {
     private lazy var addAdultButton           = createAddAdultButton()
     private lazy var addKidButton             = createAddKidButton()
     private lazy var ageKidTitle              = createAgeKidTitle()
-    private lazy var ageKidButton             = ButtonWithMenuView(elements: getAgesElements())
+    private lazy var ageKidPicker             = createAgeKidPicker()
     private lazy var ageKidDoneButton         = createAgeKidDoneButton()
     private lazy var ageKidStackView          = createAgeKidStackView()
     private lazy var doneButton               = DoneButton()
     
     // MARK: Initialization
     
-    override init(frame: CGRect) {
+    init(startAdultsCount: Int, startKidsCount: Int, startAgeKids: [Int], frame: CGRect) {
+        adultsCount = startAdultsCount
+        kidsCount = startKidsCount
+        ageKids = startAgeKids
+        
         super.init(frame: frame)
         setupSettings()
     }
@@ -110,7 +113,9 @@ final class AddingPersonView: UIView {
             doneButton.leadingAnchor.constraint(equalTo: centerXAnchor),
             doneButton.rightAnchor.constraint(equalTo: rightAnchor, constant: -16),
             doneButton.topAnchor.constraint(greaterThanOrEqualTo: ageKidStackView.bottomAnchor, constant: 32),
-            doneButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -32)
+            doneButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -32),
+            
+            ageKidPicker.widthAnchor.constraint(equalToConstant: bounds.width / 2)
         ])
     }
     
@@ -121,7 +126,7 @@ final class AddingPersonView: UIView {
         button.addTarget(self, 
                          action: #selector(deleteAdultButtonAction),
                          for: .touchUpInside)
-        button.tag = 0
+        button.tag = 15
         imagesStack.addArrangedSubview(button)
     }
     
@@ -144,7 +149,7 @@ final class AddingPersonView: UIView {
     }
     
     private func deleteAdultFromStack() {
-        imagesStack.subviews.first{ $0.tag == 0 }?.removeFromSuperview()
+        imagesStack.subviews.first{ $0.tag == 15 }?.removeFromSuperview()
     }
     
     private func deleteKidFromStack(age: Int) {
@@ -163,21 +168,6 @@ final class AddingPersonView: UIView {
         delegateView?.changedPersonCount(adultsCount: adultsCount,
                                          kidsCount: kidsCount,
                                          kidsAges: ageKids)
-    }
-    
-    private func getAgesElements() -> [UIMenuElement] {
-        var ages: [UIMenuElement] = []
-        for index in 0...14 {
-            let title = index == 0 ? "< 1 года" : "\(index)"
-            let action = UIAction(title: title,
-                                  state: .off,
-                                  handler: { [weak self] _ in
-                guard let self = self else { return }
-                self.ageKids.append(index)
-            })
-            ages.append(action)
-        }
-        return ages
     }
     
     // MARK: Creating UI components
@@ -250,6 +240,7 @@ final class AddingPersonView: UIView {
         label.text = .searchMain(.ageKidTitle)
         label.textColor = .customColor(.blackColor)
         label.font = .customFont(.semiBold, size: 16)
+        label.numberOfLines = 0
         return label
     }
     
@@ -262,21 +253,29 @@ final class AddingPersonView: UIView {
                          for: .touchUpInside)
         button.backgroundColor = .customColor(.orangeColor)
         button.layer.cornerRadius = 5
-        button.contentEdgeInsets = UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 5)
+        button.contentEdgeInsets = UIEdgeInsets(top: 5, left: 5, bottom: 5, right: 5)
         return button
+    }
+    
+    private func createAgeKidPicker() -> UIPickerView {
+        let picker = UIPickerView()
+        picker.translatesAutoresizingMaskIntoConstraints = false
+        picker.delegate = self
+        picker.dataSource = self
+        return picker
     }
     
     private func createAgeKidStackView() -> UIStackView {
         let stackView = UIStackView()
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .horizontal
-        stackView.distribution = .equalSpacing
-        stackView.alignment = .fill
+        stackView.distribution = .equalCentering
+        stackView.alignment = .center
         stackView.spacing = 0
         stackView.isHidden = true
         
         stackView.addArrangedSubview(ageKidTitle)
-        stackView.addArrangedSubview(ageKidButton)
+        stackView.addArrangedSubview(ageKidPicker)
         stackView.addArrangedSubview(ageKidDoneButton)
         return stackView
     }
@@ -305,7 +304,6 @@ final class AddingPersonView: UIView {
         
         guard let index = ageKids.firstIndex(where: { $0 == sender.tag }) else { return }
         ageKids.remove(at: index)
-        print(ageKids)
     }
     
     @objc private func selectAgeKidAction() {
@@ -314,5 +312,33 @@ final class AddingPersonView: UIView {
     
     @objc private func doneButtonAction() {
         delegateView?.clickedDoneButton()
+    }
+}
+
+// MARK: - UIPickerViewDataSource {
+
+extension AddingPersonView: UIPickerViewDataSource {
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return maxKidAge + 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        if row == 0 {
+            return "< 1 года"
+        } else {
+            return "\(row)"
+        }
+    }
+}
+
+// MARK: - UIPickerViewDelegate {
+
+extension AddingPersonView: UIPickerViewDelegate {
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        ageKids.append(row)
     }
 }
